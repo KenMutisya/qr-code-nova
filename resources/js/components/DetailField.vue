@@ -7,7 +7,11 @@
       </h4>
     </div>
     <div class="md:w-3/4 md:py-3 break-all lg:break-words">
-      <img :src="image" alt="">
+      <img :src="image" alt="" class="mb-3">
+
+      <a :download="image" :href="image" class="mt-3">
+        Download QR
+      </a>
     </div>
   </div>
 
